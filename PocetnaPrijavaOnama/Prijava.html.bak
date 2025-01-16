@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Prijava</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="zaglavlje"><header><h1>Tehnicki fakultet Univerziteta u Bihaću<h1></header>
+			<div class="nav">
+				 <a class="link" href="#">Početna</a>
+				 <a class="link" href="#">O nama</a>
+				 <a class="link" href="#">Prijava</a>
+				 <a class="link" href="#">Kontakt</a>
+			</div>
+		</div>
+		<br>
+		<h2>Prijava na studije</h2>
+		<br>
+		<p>Popuni obrazac ispod kako biste se prijavili na studije na Tehničkom fakultetu
+		Univerziteta u Bihaću</p><br>
+		<form>
+		Ime i prezime
+		<input type="text">
+		Email
+		<input type="text">
+		Telefon
+		<input type="text">
+		Ciklus studija
+		<select name="opcije">
+			<option selected="selected">Osnovne studije</option>
+			<option>Master studiji</option>
+			<option>Doktorski studiji</option>	
+		</select>
+		Oblast interesovanja
+		<input type="text">
+		<button type="submit">Posaljite prijavu </button>
+		</form>
+	<div class="podnozje">I Kolokvij iz predmeta Internet programiranje,
+	akademska godina 2024/25</div>
+	</body>
+</html>

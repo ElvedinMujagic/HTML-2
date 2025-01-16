@@ -1,0 +1,50 @@
+
+div.papirus{
+    background-image:url(slike/papirus.jpg);
+    height:670px;
+    width:460px;
+    margin-left:95px;
+    margin-right:140px;
+    margin-top:85px;
+    text-align:justify;
+}
+span.vazanPojam{
+    font-weight:bold;
+    font-style:italic;
+    text-decoration:underline;
+}
+ul.Y{
+    list-style-type:none;
+    margin-bottom:5px;
+}
+li{
+    display:inline;
+    border-width:2px;
+    border-color:green;
+    border-style:dashed;
+    padding:3px;
+}
+li:hover{
+    background:brown;
+}
+body{
+    font-family:"Arial","Tahoma","Verdana";
+    font-size: 12px;
+    color:black;
+}
+a.linkovi{
+    text-decoration:none;
+    color:brown;
+}
+a.linkovi:hover{
+    text-decoration:underline;
+    color:blue;
+    font-weight:bold;
+}
+a.linkovi:active{
+    background:brown;
+}
+span.clanak{
+    font-weight:bold;
+    text-decoration:underline;
+}

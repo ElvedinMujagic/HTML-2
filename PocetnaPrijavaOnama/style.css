@@ -1,0 +1,137 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family:Arial,sans-serif;
+}
+
+.zaglavlje {
+	background-color:#333;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
+
+.nav {
+	display:flex;
+	justify-content:center;
+	background-color:#444;
+	align-items:center;
+}
+
+.link {
+	color:white;
+	padding:14px 20px;
+	text-decoration:none;
+	text-align:center;
+	height:100%
+}
+
+.link:hover {
+	background-color:#ddd;
+	color:black;
+}
+
+.baner {
+	width:100%;
+	text-align:center;
+	border-spacing:20px;
+	background:#f4f4f4
+}
+.slika {
+	max-width:100%;
+	height:auto;
+	margin-bottom:20px;
+}
+
+
+h2 {
+	color:#333;
+}
+
+ul {
+	padding-left:20px;
+}
+
+li {
+	padding:8px;
+	margin-bottom:5px;
+	background-color:#f4f4f4;
+	border:1px solid #ddd;
+	border-radius:4px;
+}
+
+li:hover {
+	background-color:#e0e0e0;
+}
+
+.podnozje {
+	display:flex;
+	color:#ffffff;
+	background-color:#333333;
+	text-align:center;
+	padding:2px;
+	font:16px;
+	width:100%;
+	height:50px;
+	margin-top:50px;
+	align-items:center;
+	justify-content:center;
+}
+
+.podnozje:hover{
+	background-color:#B0B0B0;
+}
+
+.paragraf {
+	text-align:center;
+}
+
+.tabela {
+	width:100%;
+	border-collapse:collapse;
+	margin-top:20px;
+}
+
+.tabela th,td{
+	padding:12px;
+	text-align:center;
+	border:1px solid #ddd;
+}
+
+.tabela thead {
+	background-color:#4CAF50;
+	color:white;
+}
+
+tr:nth-child(even) {
+	background-color:#f2f2f2;
+}
+tr:hover{
+	background-color:#ddd;
+}
+
+form {
+	display:flex;
+	flex-direction:column;
+	max-width:600px;
+	margin:auto;
+}
+
+input,select,textarea {
+	padding:10px;
+	margin:10px 0;
+	border-radius:5px;
+	border:1px solid #ccc;
+}
+
+button{
+	padding:10px;
+	background-color:#4CAF50;
+	color:white;
+	border:none;
+	border-radius:5px;
+}
+
+button:hover {
+	background-color:#45a049;
+}
